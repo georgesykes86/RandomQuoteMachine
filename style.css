@@ -1,0 +1,60 @@
+body {
+  background-color: #bdcebe;
+  color: #bdcebe;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Raleway', sans-serif;
+}
+
+.quote-container {
+  background-color: #fff;
+  margin: 5% auto auto auto;
+  padding: 30px 50px 30px 50px;
+  display:inline-block;
+  
+}
+
+.btn {
+  background-color: #bdcebe;
+  color: #fff;
+}
+
+.quote {
+  font-size: 1.75em;
+  clear: both;
+  width: 450px;
+  height: auto;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.buttons {
+  padding-top: 15px;
+  
+}
+
+.quoter {
+  width: 450px;
+  height: auto;
+  text-align: right;
+}
+
+.btn-left {
+  float: left;
+  margin-right: 5px;
+}
+
+.btn-right {
+  float: right;
+}
+
+.btn:hover {
+  opacity: 0.5;  
+}
+
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  color: #fff !important;
+}
